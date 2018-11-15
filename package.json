@@ -1,0 +1,35 @@
+{
+  "name": "react-complete-boilerplate",
+  "version": "0.1.0",
+  "description": "A simple React-Redux-ReactRouter-Saga built with Webpack that can be used as a template for React-based front-end Projects. This project contains also some components that were committed as examples and can be removed.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "author": {
+    "name": "Guido Sangiovanni",
+    "email": "guido.sangiovanni@nealis.it",
+    "url": "http://github.com/sangio90"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "6.4.1",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "6.24.1",
+    "css-loader": "1.0.0",
+    "style-loader": "0.23.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.3",
+    "react-redux": "5.0.7",
+    "react-router-dom": "4.3.1",
+    "redux": "4.0.0",
+    "redux-saga": "0.16.2"
+  }
+}
